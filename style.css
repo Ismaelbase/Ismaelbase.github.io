@@ -1,0 +1,70 @@
+
+#pagina{
+	max-width: 1600px;
+	margin: auto;
+}
+
+body {
+	margin: 0px;
+}
+
+i {
+	font-size: 4rem;
+	color: #FFC300;
+}
+
+label {
+	font-weight: bolder;
+	font-size: 1.1em;
+	color: #FFC300;
+	font-style: italic;
+}
+
+a{
+	font-family: 'Spectral', serif;
+	text-decoration: none;
+	color: #FFC300;
+	font-weight: bolder;
+	font-size: 2rem;
+	padding: 1rem;
+
+}
+
+#menu{
+
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	background-color: darkred;
+	border-bottom: black solid 5px;
+	flex-wrap: wrap;
+}
+
+.form1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form2{
+	display: inline-block;
+}
+
+.form2 label{
+	margin-right: 3rem;
+}
+
+#botonfrom{
+	width: 100%;
+}
+
+#botonfrom button{
+	width: 100%;
+}
+
+button{
+	font-style: italic;
+	font-weight: bold;
+	background-color: darkred;
+	color: #FFC300;
+	border: solid #FFC300 2px;
+}
