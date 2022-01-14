@@ -38,9 +38,18 @@ body {
 	background-color: #491307;
 }
 
-i {
-	font-size: 4rem;
+
+
+#footer i {
+
+	font-size: 2.5rem;
+	padding: 1rem;
 	color: #a99c7f;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#media{
+	display: inline;
 }
 
 label {
@@ -84,17 +93,19 @@ input {
 	margin-bottom: 1rem;
 }
 
+
+
 #menu{
 
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
 	background-color: #6e1d0b;
-	border-bottom: black solid 5px;
+	border-bottom: #B79F6C solid 5px;
 	flex-wrap: wrap;
 	align-items: center;
 	-webkit-box-shadow: 0px 10px 13px -7px #000000, 50px 50px 50px 50px rgba(0,0,0,0); 
-box-shadow: 0px 10px 13px -7px #000000, 50px 50px 50px 50px rgba(0,0,0,0);
+	box-shadow: 0px 10px 13px -7px #000000, 50px 50px 50px 50px rgba(0,0,0,0);
 }
 
 .form1{
@@ -126,4 +137,72 @@ button{
 	border: solid #B79F6C 2px;
 	font-weight: normal;
 	font-size: 1.05em;
+	border-radius: 5px;	
+}
+
+#Banner1 {
+
+	display: flex;
+	background-image: url("img/Bannersaga2.jpg");
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 66%;
+	margin-top: 0px;
+	border-bottom: solid #B79F6C 2px;
+	height: 20vh;
+
+
+}
+
+#Titulopagina1{
+
+	text-align:  center;
+	font-size: 8rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-weight: normal;
+	font-family: 'Vinque Rg';
+	color: #B79F6C;
+}
+
+h2 {
+	font-family: 'Vinque Rg';
+	color: #B79F6C;
+	font-size: 3rem;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+p {
+	font-family: 'Vinque Rg';
+	color: #B79F6C;
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+.flotantes {
+
+	float: right;
+	max-width: 30%;
+	border: 4px double rgba(183,159,108,0.36);
+	border-radius: 10px;
+	margin-left: 0.8rem;
+}
+
+#footer {
+
+	display: flex;
+	background-image: url("img/Bannersaga17.png");
+	align-items: flex-start;
+	justify-content: flex-end;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 30%;
+	margin-top: 0px;
+	border-top: solid #B79F6C 2px;
+	height: 20vh;
+
+
 }
