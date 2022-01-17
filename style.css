@@ -42,6 +42,7 @@ body {
 
 #footer i {
 
+
 	font-size: 2.5rem;
 	padding: 1rem;
 	color: #a99c7f;
@@ -91,6 +92,7 @@ input {
 #enlacestexto a{
 	padding: 2rem;
 	margin-bottom: 1rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 
@@ -172,6 +174,7 @@ h2 {
 	font-size: 3rem;
 	font-weight: normal;
 	text-align: center;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
 
@@ -189,6 +192,7 @@ p {
 	border: 4px double rgba(183,159,108,0.36);
 	border-radius: 10px;
 	margin-left: 0.8rem;
+	margin-top: 0.8rem;
 }
 
 #footer {
@@ -203,6 +207,20 @@ p {
 	margin-top: 0px;
 	border-top: solid #B79F6C 2px;
 	height: 20vh;
+	margin-top: 5rem;
 
 
+}
+
+li {
+	font-family: 'Vinque Rg';
+	color: #B79F6C;
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+#linegrita {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-size: 1.1em;
+	
 }
