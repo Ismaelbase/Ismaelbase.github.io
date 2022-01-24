@@ -248,7 +248,7 @@ li {
 	margin-bottom: 0px;
 }
 
-figure{
+.imgtxt figure{
 	padding: 0px;
 	margin: 0px;
 }
@@ -263,7 +263,7 @@ figure{
 	margin-bottom: 0px;
 }
 
-figcaption{
+.imgtxt figcaption{
 
 	padding-bottom: 0px;
 	width: 100%;
@@ -288,3 +288,32 @@ figcaption{
 	left: 0px;
 	
 }
+
+#informacionfigure{
+	width: 30%
+
+}
+#informacionfigure img{
+
+	width: 100%;
+}
+#informacioncaption {
+
+	width: 100%
+	width: 100%;
+	margin-top: 0px;
+	background-color: black;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: 'Vinque Rg';
+	color: #B79F6C;
+	font-weight: normal;
+	font-size: 1.2rem;
+
+}
+
+#sectioninfo{
+	display: flex;
+	align-items: flex-start;
+}
+
