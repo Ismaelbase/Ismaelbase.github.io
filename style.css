@@ -148,7 +148,7 @@ button{
 	font-weight: normal;
 	font-size: 1.05em;
 	border-radius: 5px;
-	cursor: url('img/mouse_cursor2.png'), auto;
+	cursor: url('img/mouse_cursor3.png'), auto;
 }
 
 #Banner1 {
@@ -366,7 +366,7 @@ head,body,footer{
 details>summary {
   padding: 4px;
   width: 200px;
-  cursor: url('img/mouse_cursor2.png'), auto;
+  cursor: url('img/mouse_cursor3.png'), auto;
 
 }
 ::marker{
@@ -377,7 +377,7 @@ details>summary {
 
 
 a{
-	cursor: url('img/mouse_cursor2.png'), auto;
+	cursor: url('img/mouse_cursor3.png'), auto;
 }
 
 summary>h3{
@@ -430,3 +430,4 @@ summary>h3{
 	margin: auto;
 	display: block;
 }
+
