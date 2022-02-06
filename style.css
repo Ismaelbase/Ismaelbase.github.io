@@ -74,7 +74,6 @@ a{
 	text-decoration: none;
 	color: #b79f6c;
 	font-weight: bolder;
-
 	font-weight: normal;
 
 }
@@ -182,6 +181,37 @@ button{
 
 
 }
+#Banner3 {
+
+	display: flex;
+	background-image: url("img/Bannersaga16.png");
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 60%;
+	margin-top: 0px;
+	border-bottom: solid #B79F6C 2px;
+	height: 17vh;
+
+
+}
+
+#Banner4 {
+
+	display: flex;
+	background-image: url("img/Bannersaga15.png");
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 10%;
+	margin-top: 0px;
+	border-bottom: solid #B79F6C 2px;
+	height: 17vh;
+
+
+}
 
 #Titulopagina1{
 
@@ -202,13 +232,31 @@ h2 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
+h3{
 
-p {
+	font-family: 'Vinque Rg';
+	color: #c5b289;
+	font-size: 1.7rem;
+	font-weight: normal;
+	text-align: left;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+p,dl {
 	font-family: 'Vinque Rg';
 	color: #B79F6C;
 	font-weight: normal;
 	font-size: 1.2rem;
 	
+}
+dt{
+	font-family: 'Vinque Rg';
+	color: #B79F6C;
+	font-weight: normal;
+	padding-top: 0.2rem;
+	font-size: 1.3rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .flotantes {
@@ -247,9 +295,14 @@ li {
 	font-size: 1.2rem;
 }
 
-#linegrita {
+ul li{
+	padding-top: 0.2rem;
+}
+
+.linegrita {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	font-size: 1.1em;
+	font-size: 1.3em;
+	margin-right: 0.2rem;
 	
 }
 
@@ -431,3 +484,68 @@ summary>h3{
 	display: block;
 }
 
+
+
+td,th{
+
+	text-align: center;
+	border: 2px solid #B79F6C;
+	padding: 1rem;
+	font-size: 1.2em;
+}
+
+tr th{
+	font-family: 'Vinque Rg';
+	background-color: black;
+	color: #B79F6C;
+}
+
+tr td{
+	border: 2px solid #B79F6C;
+	font-family: 'Vinque Rg';
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.4em;
+	text-shadow: -1px -1px 0 #B79F6C, 1px -1px 0 #B79F6C, -1px 1px 0 #B79F6C, 1px 1px 0 #B79F6C;
+
+}
+
+tr:nth-child(2n){
+	background-color: #6e1d0b;
+
+}
+
+tr:nth-child(2n+1){
+}
+
+table{
+	margin: auto;
+	margin-top: 3rem;
+	display: block;
+ 	width: 120vh;
+ 	height: auto;
+	border-collapse: collapse;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+
+
+td img{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 100%;
+
+
+}
+
+#contenedortabla{
+	display: flex;
+
+}
+
+#tabla_dioses td{
+	padding: 1rem;
+}
