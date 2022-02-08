@@ -271,6 +271,10 @@ dt{
 	background-color: #3c0e04;
 }
 
+.flotantes img{
+	width: 100%;
+}
+
 footer {
 
 	display: flex;
@@ -522,17 +526,15 @@ table{
 	margin: auto;
 	margin-top: 3rem;
 	display: block;
- 	width: 120vh;
- 	height: auto;
 	border-collapse: collapse;
 	overflow-x: auto;
 	overflow-y: hidden;
-	white-space: nowrap;
+	
 }
 
 
 
-td img{
+#tablauno td>img{
 	margin: 0px;
 	padding: 0px;
 	display: block;
@@ -548,4 +550,13 @@ td img{
 
 #tabla_dioses td{
 	padding: 1rem;
+}
+
+#tablauno td,th{
+	width: 16.66%;
+}
+
+.ultimo{
+	padding-top: 0px;
+	margin-top: 0px;
 }
