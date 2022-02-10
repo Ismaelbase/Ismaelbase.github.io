@@ -492,11 +492,11 @@ summary>h3{
 
 
 td,th{
-
 	text-align: center;
 	border: 2px solid #B79F6C;
 	padding: 1rem;
 	font-size: 1.2em;
+	
 }
 
 tr th{
@@ -506,6 +506,7 @@ tr th{
 }
 
 tr td{
+
 	border: 2px solid #B79F6C;
 	font-family: 'Vinque Rg';
 	padding: 0px;
@@ -530,6 +531,8 @@ table{
 	border-collapse: collapse;
 	overflow-x: auto;
 	overflow-y: hidden;
+
+
 	
 }
 
@@ -555,6 +558,7 @@ table{
 
 #tablauno td,th{
 	width: 16.66%;
+
 }
 
 .ultimo{
