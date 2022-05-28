@@ -15,6 +15,13 @@ main{
 	align-items: center;
 }
 
+a,summary>h3{
+	transition: all 1s;
+}
+a:hover,summary>h3:hover{
+	color: #f6ff96;
+}
+
 #enlaceimagen{
 
 	margin: 0px;
